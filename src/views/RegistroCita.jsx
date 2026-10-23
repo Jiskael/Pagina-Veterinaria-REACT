@@ -4,17 +4,12 @@ import Footer from '../components/Footer'
 import Seccion from '../components/Seccion'
 import FormularioReserva from '../components/FormularioReserva'
 
+import { itemsMenu } from '../data/menuItem'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function RegistroCita({ darkMode, toggleDarkMode, servicios }) {
 
-    const itemsMenu = [
-    {href: '/', label: 'Inicio'},
-    {href: '/servicios', label: 'Servicios'},
-    {href: '/', label: 'Galeria'},
-    {href: '/registro', label: 'Reservar Hora'},
-    {href: '/', label: 'Contacto'}
-  ];
 
   return (
     <>

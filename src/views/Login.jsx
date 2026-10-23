@@ -12,7 +12,7 @@ function Login({ darkMode, toggleDarkMode }) {
     {href: '/servicios', label: 'Servicios'},
     {href: '/', label: 'Galeria'},
     {href: '/registro', label: 'Reservar Hora'},
-    {href: '/', label: 'Contacto'}
+    {href: '/sfdretyuahg', label: 'Contacto'}
   ];
   return (
     <>

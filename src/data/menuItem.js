@@ -4,5 +4,5 @@ export const itemsMenu = [
     {href: '/servicios', label: 'Servicios'},
     {href: '/', label: 'Galeria'},
     {href: '/registro', label: 'Reservar Hora'},
-    {href: '/habare', label: 'Contacto'}
+    {href: '/habare', label: 'Contacto'} //Error 404
 ];
