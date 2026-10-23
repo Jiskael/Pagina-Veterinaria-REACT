@@ -1,0 +1,13 @@
+import React from 'react'
+
+function Seccion({id, className, children}) {
+  return (
+    <>
+      <section id={id} className={className}>
+        {children}        
+      </section>
+    </>
+  )
+}
+
+export default Seccion
